@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "csanddemon-ocrmdoc_jd412"
+name = "csanddemon-knowledge_base_freshness_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列OCR 文档理解工程师·知识库的时效性维护的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://csanddemon.github.io"
-Repository = "https://github.com/csanddemon/ocrmdoc_jd412"
-Issues = "https://github.com/csanddemon/ocrmdoc_jd412/issues"
+Repository = "https://github.com/csanddemon/knowledge_base_freshness_timeline_score"
+Issues = "https://github.com/csanddemon/knowledge_base_freshness_timeline_score/issues"
 
 [project.scripts]
-ocrmdoc_jd412 = "ocrmdoc_jd412:main"
+knowledge_base_freshness_timeline_score = "knowledge_base_freshness_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["ocrmdoc_jd412"]
+py-modules = ["knowledge_base_freshness_timeline_score"]
